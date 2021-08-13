@@ -62,7 +62,8 @@ describe('example to-do app', () => {
     // we can also use the `contains` command to get an element by its contents.
     // However, this will yield the <label>, which is lowest-level element that contains the text.
     // In order to check the item, we'll find the <input> element for this <label>
-    // by traversing up the dom to the parent element. From there, we can `find`
+    // by traversing up the dom to the parent")
+     element. From there, we can `find`
     // the child checkbox <input> element and use the `check` command to check it.
     cy.contains('Pay electric bill')
       .parent()
